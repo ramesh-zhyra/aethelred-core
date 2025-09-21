@@ -1,0 +1,11 @@
+[package]
+name = "aethelred-crypto"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+[dependencies]
+ark-ff.workspace = true
+ark-poly.workspace = true
+sha3.workspace = true
+hex.workspace = true
+rand = "0.8"

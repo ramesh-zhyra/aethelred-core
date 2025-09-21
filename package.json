@@ -1,0 +1,21 @@
+{
+  "name": "@aethelred/monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "oracle/chainlink",
+    "validator/dashboard",
+    "sdk/javascript"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+}
